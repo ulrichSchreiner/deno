@@ -2,7 +2,7 @@ FROM debian:buster-slim
 
 LABEL maintainer="ulrich.schreiner@gmail.com"
 
-ARG DENO_VERSION=1.0.0
+ARG DENO_VERSION=1.0.3
 
 ENV DENO_URL=https://github.com/denoland/deno/releases/download/v${DENO_VERSION}/deno-x86_64-unknown-linux-gnu.zip
 
