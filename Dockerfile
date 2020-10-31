@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM registry.gitlab.com/ulrichschreiner/base/debian:buster-slim
 
 LABEL maintainer="ulrich.schreiner@gmail.com"
 
