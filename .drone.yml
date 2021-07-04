@@ -9,9 +9,9 @@ steps:
   settings:    
     dockerfile: Dockerfile
     build_args:
-      DENO_VERSION: 1.11.4
+      DENO_VERSION: 1.11.5
     tags:
-      - '1.11.4'
+      - '1.11.5'
     repo: ulrichschreiner/deno
     username:
       from_secret: hub_username
